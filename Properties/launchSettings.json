@@ -1,0 +1,28 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5041/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://*:5041",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "GettingHip": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://*:5041",
+        "ASPNETCORE_ENVIRONMENT": "development"
+      },
+      "applicationUrl": "http://localhost:5041"
+    }
+  }
+}
